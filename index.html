@@ -25,9 +25,171 @@
 
 <body class="px-5">
     <!-- Nav Bar -->
+    <nav
+        class="sticky inset-0 z-10 block h-max w-full max-w-full rounded-none border border-white/80 bg-white bg-opacity-80 py-0 px-4 text-white shadow-md backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4">
+        <div class="flex items-center text-gray-900">
+            <a href="#"
+                class="mr-4 block cursor-pointer py-0 font-sans text-3xl font-medium leading-relaxed text-inherit antialiased">
+                Pro Edu
+            </a>
+            <ul class="ml-auto mr-8 hidden items-center gap-6 lg:flex">
+                <li class="block p-1 font-sans text-sm font-normal leading-normal text-inherit antialiased">
+                    <a class="flex items-center" href="#">
+                        Courses
+                    </a>
+                </li>
+                <li class="block p-1 font-sans text-sm font-normal leading-normal text-inherit antialiased">
+                    <a class="flex items-center" href="#">
+                        Deals
+                    </a>
+                </li>
+                <li class="block p-1 font-sans text-sm font-normal leading-normal text-inherit antialiased">
+                    <a class="flex items-center" href="#">
+                        Success
+                    </a>
+                </li>
+                <li class="block p-1 font-sans text-sm font-normal leading-normal text-inherit antialiased">
+                    <a class="flex items-center" href="#">
+                        About
+                    </a>
+                </li>
+            </ul>
+            <button
+                class="middle none center hidden rounded-lg bg-gradient-to-tr from-pink-600 to-pink-400 py-2 px-4 font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
+                type="button" data-ripple-light="true">
+                <span>Register</span>
+            </button>
+            <button
+                class="middle none relative ml-auto h-6 max-h-[40px] w-6 max-w-[40px] rounded-lg text-center font-sans text-xs font-medium uppercase text-blue-gray-500 transition-all hover:bg-transparent focus:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:hidden"
+                data-collapse-target="sticky-navar">
+                <span class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transform">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" stroke="currentColor"
+                        strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </span>
+            </button>
+        </div>
+        <div class="block h-0 w-full basis-full overflow-hidden text-blue-gray-900 transition-all duration-300 ease-in lg:hidden"
+            data-collapse="sticky-navar">
+            <ul class="mt-2 mb-4 flex flex-col gap-2 pb-2">
+                <li class="block p-1 font-sans text-sm font-normal leading-normal text-inherit antialiased">
+                    <a class="flex items-center" href="#">
+                        Courses
+                    </a>
+                </li>
+                <li class="block p-1 font-sans text-sm font-normal leading-normal text-inherit antialiased">
+                    <a class="flex items-center" href="#">
+                        Deals
+                    </a>
+                </li>
+                <li class="block p-1 font-sans text-sm font-normal leading-normal text-inherit antialiased">
+                    <a class="flex items-center" href="#">
+                        Success
+                    </a>
+                </li>
+                <li class="block p-1 font-sans text-sm font-normal leading-normal text-inherit antialiased">
+                    <a class="flex items-center" href="#">
+                        about
+                    </a>
+                </li>
+                <button
+                    class="mb-2 block w-full rounded-lg bg-gradient-to-tr from-pink-600 to-pink-400 py-2 px-4 font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                    type="button" data-ripple-light="true">
+                    <span>Register</span>
+                </button>
+
+            </ul>
+        </div>
+    </nav>
     <!-- Nav Bar Ends -->
 
     <!-- Carousel -->
+    <section class="container mx-auto">
+        <div id="carouselExampleCaptions" class="relative" data-te-carousel-init data-te-ride="carousel">
+            <!--Carousel indicators-->
+            <div class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+                data-te-carousel-indicators>
+                <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="0"
+                    data-te-carousel-active
+                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="1"
+                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="2"
+                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <!--Carousel items-->
+            <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+                <!--First item-->
+                <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                    data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
+                    <img src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(15).jpg" class="block w-full"
+                        alt="..." />
+                    <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                        <h5 class="text-xl">First slide label</h5>
+                        <p>
+                            Some representative placeholder content for the first slide.
+                        </p>
+                    </div>
+                </div>
+                <!--Second item-->
+                <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                    data-te-carousel-item style="backface-visibility: hidden">
+                    <img src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg" class="block w-full"
+                        alt="..." />
+                    <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                        <h5 class="text-xl">Second slide label</h5>
+                        <p>
+                            Some representative placeholder content for the second slide.
+                        </p>
+                    </div>
+                </div>
+                <!--Third item-->
+                <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                    data-te-carousel-item style="backface-visibility: hidden">
+                    <img src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(23).jpg" class="block w-full"
+                        alt="..." />
+                    <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                        <h5 class="text-xl">Third slide label</h5>
+                        <p>
+                            Some representative placeholder content for the third slide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Carousel controls - prev item-->
+            <button
+                class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                type="button" data-te-target="#carouselExampleCaptions" data-te-slide="prev">
+                <span class="inline-block h-8 w-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="h-6 w-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
+                </span>
+                <span
+                    class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+            </button>
+            <!--Carousel controls - next item-->
+            <button
+                class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                type="button" data-te-target="#carouselExampleCaptions" data-te-slide="next">
+                <span class="inline-block h-8 w-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="h-6 w-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </span>
+                <span
+                    class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
+            </button>
+        </div>
+    </section>
     <!-- Carousel Ends -->
 
     <!-- Courses -->
@@ -206,7 +368,7 @@
     <!-- Students Ends -->
 
     <!-- Feedback -->
-    <section class="container mx-auto mt-8 md:mt-16 xl:mt-32">
+    <section class="container mx-auto mt-8 md:mt-16 xl:mt-16">
         <h2 class="font-f1 font-semibold text-2xl xl:text-5xl text-center">Some Students Feedback</h2>
         <p class="font-f1 text-sm sm:text-base text-center text-neutral-500 mt-3">It is a long established fact that a
             reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -267,6 +429,65 @@
         </div>
     </section>
     <!-- Feedback Ends -->
+
+    <!-- FAQ -->
+    <section class="container mx-auto">
+        <div class="relative mb-3">
+            <h6 class="mb-0">
+                <button
+                    class="border-slate-100 text-slate-700 rounded-t-1 group relative flex w-full cursor-pointer items-center border-b border-solid p-4 text-left font-semibold text-dark-500 transition-all ease-in"
+                    data-collapse-target="collapse-1">
+                    <span>What is Material Tailwind?</span>
+                    <i class="fa fa-plus absolute right-0 pt-1 text-xs group-open:opacity-0"></i>
+                    <i class="fa fa-minus absolute right-0 pt-1 text-xs opacity-0 group-open:opacity-100"></i>
+                </button>
+            </h6>
+            <div data-collapse="collapse-1" class="h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                <div class="p-4 text-sm leading-normal text-blue-gray-500/80">
+                    We're not always in the position that we want to be at. We're constantly
+                    growing. We're constantly making mistakes. We're constantly trying to
+                    express ourselves and actualize our dreams.
+                </div>
+            </div>
+        </div>
+        <div class="relative mb-3">
+            <h6 class="mb-0">
+                <button
+                    class="border-slate-100 text-slate-700 rounded-t-1 group relative flex w-full cursor-pointer items-center border-b border-solid p-4 text-left font-semibold text-dark-500 transition-all ease-in"
+                    data-collapse-target="collapse-2">
+                    <span>How to use Material Tailwind?</span>
+                    <i class="fa fa-plus absolute right-0 pt-1 text-xs group-open:opacity-0"></i>
+                    <i class="fa fa-minus absolute right-0 pt-1 text-xs opacity-0 group-open:opacity-100"></i>
+                </button>
+            </h6>
+            <div data-collapse="collapse-2" class="h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                <div class="p-4 text-sm leading-normal text-blue-gray-500/80">
+                    We're not always in the position that we want to be at. We're constantly
+                    growing. We're constantly making mistakes. We're constantly trying to
+                    express ourselves and actualize our dreams.
+                </div>
+            </div>
+        </div>
+        <div class="relative mb-3">
+            <h6 class="mb-0">
+                <button
+                    class="border-slate-100 text-slate-700 rounded-t-1 group relative flex w-full cursor-pointer items-center border-b border-solid p-4 text-left font-semibold text-dark-500 transition-all ease-in"
+                    data-collapse-target="collapse-3">
+                    <span>What can I do with Material Tailwind?</span>
+                    <i class="fa fa-plus absolute right-0 pt-1 text-xs group-open:opacity-0"></i>
+                    <i class="fa fa-minus absolute right-0 pt-1 text-xs opacity-0 group-open:opacity-100"></i>
+                </button>
+            </h6>
+            <div data-collapse="collapse-3" class="h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                <div class="p-4 text-sm leading-normal text-blue-gray-500/80">
+                    We're not always in the position that we want to be at. We're constantly
+                    growing. We're constantly making mistakes. We're constantly trying to
+                    express ourselves and actualize our dreams.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Ends -->
 
     <!-- Footer -->
     <footer class="bg-black py-7 sm:py-14 xl:py-32">
